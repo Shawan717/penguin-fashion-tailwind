@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;600&family=Open+Sans:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Penguin Fashion</title>
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bg-col': '#FFFBF0',
+                'span-col': '#FABE4C',
+                'img-bg-col': '#F1F1F1',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="bg-bg-col">
+        <nav>
+            <div class="flex flex-col space-y-4 justify-around items-center py-6 lg:flex-row lg:space-y-0">
+                <div>
+                    <img class="w-80 " src="./icons/logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="flex justify-around items-center gap-5">
+                        <li>Home</li>
+                        <li>Products</li>
+                        <li>About US</li>
+                        <li>Contact US</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="flex flex-col justify-around items-center py-14 lg:flex-row">
+                <div>
+                    <h1 class="text-5xl lg:text-7xl"><span class="text-span-col">BE THE PENGUINS</span><br>OF WINTER</h1>
+                    <p class="py-5">Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Provident, dicta.</p>
+                    <div class="">
+                        <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg>
+                          BUY NOW</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/model.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main class="max-w-screen-2xl m-auto">
+        <section class="pt-14 lg:py-14">
+            <h1 class="text-3xl font-font-bebas lg:text-5xl">WOMEN JACKET</h1>
+            <div class="flex flex-col justify-between items-center py-6 lg:py-10 lg:flex-row">
+              <div class="py-5 lg:py-0">
+                <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                    <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-1.png" alt="Shoes" /></figure>
+            
+                <div class="card-body">
+                  <h2 class="card-title">Women Coat Jacket</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                  <div class="card-actions flex justify-between items-center">
+                    <h1 class="text-3xl text-span-col">$320</h1>
+                    <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                      </svg>
+                      BUY NOW</button>
+                  </div>
+                </div>
+               </div>
+              </div>
+              <!--  -->
+              <div class="py-5 lg:py-0">
+                <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                    <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-2.png" alt="Shoes" /></figure>
+            
+                <div class="card-body">
+                  <h2 class="card-title">Women Coat Jacket</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                  <div class="card-actions flex justify-between items-center">
+                    <h1 class="text-3xl text-span-col">$320</h1>
+                    <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                      </svg>
+                      BUY NOW</button>
+                  </div>
+                </div>
+               </div>
+              </div>
+               
+                <!--  -->
+                <div class="py-5 lg:py-0">
+                    <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                        <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-3.png" alt="Shoes" /></figure>
+                
+                    <div class="card-body">
+                      <h2 class="card-title">Women Coat Jacket</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                      <div class="card-actions flex justify-between items-center">
+                        <h1 class="text-3xl text-span-col">$320</h1>
+                        <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg>
+                          BUY NOW</button>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+              
+            </div>
+        </section>
+
+        <section>
+            <section class="pt-14 lg:py-0">
+                <h1 class="text-3xl font-font-bebas lg:text-5xl">MAN JACKET</h1>
+                <div class="flex flex-col justify-between items-center py-6 lg:py-10 lg:flex-row">
+                  <div class="py-5 lg:py-0">
+                    <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                        <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-4.png" alt="Shoes" /></figure>
+                
+                    <div class="card-body">
+                      <h2 class="card-title">Man Coat Jacket</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                      <div class="card-actions flex justify-between items-center">
+                        <h1 class="text-3xl text-span-col">$320</h1>
+                        <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg>
+                          BUY NOW</button>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                  <!--  -->
+                  <div class="py-5 lg:py-0">
+                    <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                        <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-5.png" alt="Shoes" /></figure>
+                
+                    <div class="card-body">
+                      <h2 class="card-title">Man Coat Jacket</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                      <div class="card-actions flex justify-between items-center">
+                        <h1 class="text-3xl text-span-col">$320</h1>
+                        <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg>
+                          BUY NOW</button>
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                   
+                    <!--  -->
+                    <div class="py-5 lg:py-0">
+                        <div class="card w-96 h-[530px] bg-base-100 shadow-xl ">
+                            <figure class="bg-img-bg-col p-5"><img class="w-[290px] h-full" src="/images/jacket-6.png" alt="Shoes" /></figure>
+                    
+                        <div class="card-body">
+                          <h2 class="card-title">Man Coat Jacket</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Earum, possimus.</p>
+                          <div class="card-actions flex justify-between items-center">
+                            <h1 class="text-3xl text-span-col">$320</h1>
+                            <button class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-[#FFF] rounded-xl flex gap-4 lg:py-4 px-8"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
+                              BUY NOW</button>
+                          </div>
+                        </div>
+                       </div>
+                      </div>
+                  
+                </div>
+            </section>
+        </section>
+        
+        <section class="flex flex-col-reverse justify-between items-center py-14 lg:flex-row">
+            <div class="flex-1 my-6 lg:my-0">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class=" flex gap-6 items-center p-4">
+                        <div>
+                            <img class="w-20 h-20" src="./icons/house.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Find The Perfect Fit</h3>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Sapiente, aliquid.</p>
+                        </div>
+                    </div>
+                  </div>
+
+
+                <div class="card w-96 bg-base-100 shadow-xl my-4">
+                    <div class=" flex gap-6 items-center p-4">
+                        <div>
+                            <img class="w-20 h-20" src="./icons/house.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Find The Perfect Fit</h3>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Sapiente, aliquid.</p>
+                        </div>
+                    </div>
+                  </div>
+
+
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class=" flex gap-6 items-center p-4">
+                        <div>
+                            <img class="w-20 h-20" src="./icons/house.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Find The Perfect Fit</h3>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Sapiente, aliquid.</p>
+                        </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="flex-1">
+                <img src="./images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+        
+            <div class="flex flex-col justify-around items-center py-24 bg-black text-white lg:flex-row">
+             
+              <div class=" text-center lg:text-left">
+                <h3 class="text-2xl">Download Now</h3>
+                <div class="flex text-base list-none gap-5 py-5">
+                  <li>About</li>
+                  <li>Features</li>
+                  <li>Pricing</li>
+                  <li>Careers</li>
+                  <li>Help</li>
+                  <li>Privacy Policy</li>
+      
+                </div>
+                <p>&copy 2023 All rights reserved</p>
+              </div>
+    
+    
+              <div class="py-5 lg:py-0">
+                <h2 class="text-2xl ">Get The App</h2>
+                <div class="my-2">
+                 <img class="w-[150px] h-[48px] my-1" src="./icons/android.png" alt="">
+                 <img class="w-[150px] h-[48px] my-1" src="./icons/ios.png" alt="">
+                </div>
+               
+              </div>
+            </div>
+          
+          </section>
+
+    </footer>
+    
+</body>
+</html>
+<!-- <div class="flex justify-between items-center w-96">
+    <div>
+        <img class="w-20 h-20" src="./icons/house.png" alt="">
+    </div>
+    <div>
+        <h3>Find The Perfect Fit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Sapiente, aliquid.</p>
+    </div>
+</div> -->
